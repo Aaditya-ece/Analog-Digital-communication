@@ -1,4 +1,4 @@
-\`\`\`
+
 % Project 1: Communication Signal Visualizer 
 % Build a MATLAB GUI that can: 
 % • Generate signals  
@@ -7,7 +7,7 @@
 % • Show PSD  
 % • Apply filters  
 % Concepts used: Signals Noise FFT PSD Filters 
-
+'''matlab
 fs = 100000;                     % Sampling frequency
 t = 0.1 : 1/fs : 0.5;             % Time vector
 
@@ -52,7 +52,7 @@ title('Filtered Signal');
 subplot(3,1,3);
 pwelch(filtered_signal);
 title('Power Spectral Density (PSD)');
-\`\`\`
+'''
 
 <img width="585" height="439" alt="image" src="https://github.com/user-attachments/assets/80fd75c0-66d1-4e31-88d3-758076a9053e" />
 <img width="585" height="439" alt="image" src="https://github.com/user-attachments/assets/47e982c1-85d6-4bf6-83ed-dafd3ee9a941" />
